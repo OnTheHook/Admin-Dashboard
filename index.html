@@ -1,41 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <div class="top-header"></div>
-            <div class="bottom-header">OnTheHook</div>
+            <div class="logo">
+                <div class="logo-picture">
+                    <img src="./assets/Group@logo.svg" alt="logo">
+                </div>
+                <div class="logo-words">
+                    <span class="anti">Anti</span><span class="social">Social</span>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search enemies...">
+            </div>
+            <div class="icon">
+                <img src="./assets/main-profile-picture-small.png" alt="profile picture">
+            </div>
         </div>
         <div class="sidebar">
-            <div class="title">Dashboard</div>
             <div class="navigation">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><a href="#"><img src="./assets/home.png" alt="home icon"><span>Home</span></a></li>
+                    <li><a href="#"><img src="./assets/card-account-details-outline.png" alt="profile icon"><span>Wrap
+                                sheet</span></a></li>
+                    <li><a href="#"><img src="./assets/message.png" alt="messages icon"><span>Messages</span></a></li>
+                    <li><a href="#"><img src="./assets/clock-time-three-outline.png"
+                                alt="history icon"><span>Origins</span></a></li>
+                    <li><a href="#"><img src="./assets/account-group.png" alt="groups icon"><span>Groups</span></a></li>
                 </ul>
             </div>
             <div class="settings">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><a href="#"><img src="./assets/cog.png" alt="settings"><span>Settings</span></a></li>
+                    <li><a href="#"><img src="./assets/message-question.png" alt="support"><span>Support</span></a></li>
+                    <li><a href="#"><img src="./assets/shield-check.png" alt="settings"><span>Privacy</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="main">
-            Your Projects
+            <div class="top">
+                <div class="profile">
+                    <div class="profile-picture">
+                        <img src="./assets/main-profile-picture-big.png" alt="profile picture">
+                    </div>
+                    <div class="name">
+                        <h1>Danny Danger</h1>
+                    </div>
+                    <div class="control-buttons">
+                        <button>NEW</button>
+                        <button>UPLOAD</button>
+                        <button>SHARE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="schemes">
+                    <h2>Your schemes</h2>
+                    <div class="tiles">
+                        <div class="tile">
+                            <h3>Crypto Scam</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                        <div class="tile">
+                            <h3>Jewelry Heist</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                        <div class="tile">
+                            <h3>Bank Robbery</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                        <div class="tile">
+                            <h3>Jay Walking</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                        <div class="tile">
+                            <h3>Bicycle Theft</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                        <div class="tile">
+                            <h3>Identity Fraud</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, justo et venenatis
+                                pulvinar, libero augue posuere ligula, id efficitur eros erat at tellus. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="announcements">
+                        <h2>Announcements</h2>
+                        <div class="specifics">
+                            <h4>Armageddon</h4>
+                            <p>Ut eget metus justo. Proin vehicula nulla dui, nec pretium leo tincidunt sed. Nulla
+                                lacinia, ...</p>
+                            <h4>Community Scheme Brainstorming</h4>
+                            <p>Ut eget metus justo. Proin vehicula nulla dui, nec pretium leo tincidunt sed. Nulla
+                                lacinia, ...</p>
+                        </div>
+                    </div>
+                    <div class="trending">
+                        <h2>Trending</h2>
+                        <div class="trenders">
+                            <div class="trender">
+                                <img src="./assets/profile-picture-2.png" alt="hoodie man">
+                                <h4>Hoodie Man</h4>
+                            </div>
+                            <div class="trender">
+                                <img src="./assets/profile-picture-3.png" alt="night face">
+                                <h4>Night Face</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
